@@ -1,0 +1,3 @@
+*.yara text eol=crlf
+*.yar text eol=crlf
+*.md text eol=crlf
