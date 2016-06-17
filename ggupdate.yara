@@ -1,5 +1,6 @@
 rule ggupdate_windows {
     meta:
+        description = "ggupdate.exe keylogger (Windows)"
 
     strings:
         // 9706A7D1479EB0B5E60535A952E63F1A
@@ -20,6 +21,7 @@ rule ggupdate_windows {
 
 rule ggupdate_linux {
     meta:
+        description = "ggupdate keylogger (Linux)"
 
     strings:
         // 4611DAA8CF018B897A76FBAB51665C62
