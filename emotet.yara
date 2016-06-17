@@ -1,6 +1,7 @@
 
 rule emotet {
     meta:
+        description = "Emotet malware family"
 
     strings:
         // F196726CB3AD205C35E6774F2DFC506D @ File Offset 0x22E18
