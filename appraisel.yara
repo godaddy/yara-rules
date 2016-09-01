@@ -13,9 +13,9 @@ rule appraisel_exe_payload {
     strings:
         $filename1 = "%s\\Tmp" wide
         $filename2 = "%s\\Volume Panel" wide
-        $filename2 = "\\VolPanlu.exe" wide
-        $filename3 = "%s\\updstat.bin" wide
-        $filename4 = "%s\\srvstat.bin" wide
+        $filename3 = "\\VolPanlu.exe" wide
+        $filename4 = "%s\\updstat.bin" wide
+        $filename5 = "%s\\srvstat.bin" wide
 
         $string1 = "Panlu" wide fullword
 
